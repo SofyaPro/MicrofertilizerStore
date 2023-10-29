@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrofertilizerStore.WebAPI", "MicrofertilizerStore.WebAPI\MicrofertilizerStore.WebAPI.csproj", "{5B26058A-6179-4875-B614-C0A09520DD4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrofertilizerStore.BL", "MicrofertilizerStore.BL\MicrofertilizerStore.BL.csproj", "{8B389194-1DF0-4178-BA73-312D7033AE6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrofertilizerStore.DataAccess", "MicrofertilizerStore.DataAccess\MicrofertilizerStore.DataAccess.csproj", "{0D4ADD20-EEED-444A-BEB3-F9C9C9C3EB9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B26058A-6179-4875-B614-C0A09520DD4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B26058A-6179-4875-B614-C0A09520DD4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B26058A-6179-4875-B614-C0A09520DD4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B26058A-6179-4875-B614-C0A09520DD4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B389194-1DF0-4178-BA73-312D7033AE6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B389194-1DF0-4178-BA73-312D7033AE6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B389194-1DF0-4178-BA73-312D7033AE6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B389194-1DF0-4178-BA73-312D7033AE6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D4ADD20-EEED-444A-BEB3-F9C9C9C3EB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D4ADD20-EEED-444A-BEB3-F9C9C9C3EB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D4ADD20-EEED-444A-BEB3-F9C9C9C3EB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D4ADD20-EEED-444A-BEB3-F9C9C9C3EB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84A02CCD-D52C-4667-A7BF-9A76933C3000}
+	EndGlobalSection
+EndGlobal
