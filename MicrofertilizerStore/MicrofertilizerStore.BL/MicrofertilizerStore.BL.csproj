@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MicrofertilizerStore.DataAccess\MicrofertilizerStore.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>

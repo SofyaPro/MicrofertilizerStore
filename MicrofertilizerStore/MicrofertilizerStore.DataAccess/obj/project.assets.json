@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\MS.NET\\Projects\\MicrofertilizerStore\\MicrofertilizerStore.DataAccess\\MicrofertilizerStore.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\MS.NET\\Projects\\MicrofertilizerStore\\MicrofertilizerStore\\MicrofertilizerStore.DataAccess\\MicrofertilizerStore.DataAccess.csproj",
       "projectName": "MicrofertilizerStore.DataAccess",
-      "projectPath": "C:\\Users\\HP\\MS.NET\\Projects\\MicrofertilizerStore\\MicrofertilizerStore.DataAccess\\MicrofertilizerStore.DataAccess.csproj",
+      "projectPath": "C:\\Users\\HP\\MS.NET\\Projects\\MicrofertilizerStore\\MicrofertilizerStore\\MicrofertilizerStore.DataAccess\\MicrofertilizerStore.DataAccess.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\MS.NET\\Projects\\MicrofertilizerStore\\MicrofertilizerStore.DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\HP\\MS.NET\\Projects\\MicrofertilizerStore\\MicrofertilizerStore\\MicrofertilizerStore.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
