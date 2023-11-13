@@ -1,4 +1,4 @@
-﻿namespace MicrofertilizerStore.WebAPI.IoC
+﻿namespace MicrofertilizerStore.Service.IoC
 {
     /// <summary>
     /// Static class for Swagger Configurator
