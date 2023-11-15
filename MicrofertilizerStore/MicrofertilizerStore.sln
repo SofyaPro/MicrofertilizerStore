@@ -7,13 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrofertilizerStore.BL", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrofertilizerStore.DataAccess", "MicrofertilizerStore.DataAccess\MicrofertilizerStore.DataAccess.csproj", "{0D4ADD20-EEED-444A-BEB3-F9C9C9C3EB9C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrofertilizerStore.Repository", "MicrofertilizerStore.Repository\MicrofertilizerStore.Repository.csproj", "{9F67E993-0ABE-42C1-B9B4-2593B107B875}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B72A0FEC-702E-4D98-8544-343D5AE5C536}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrofertilizerStore.UnitTests", "MicrofertilizerStore.UnitTests\MicrofertilizerStore.UnitTests.csproj", "{0E5BD657-E3B3-48B6-988F-6C9856A567CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrofertilizerStore.Service", "MicrofertilizerStore.Service\MicrofertilizerStore.Service.csproj", "{E69B2D6C-88CD-4657-A7E3-4644CFBF7358}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrofertilizerStore.Service", "MicrofertilizerStore.Service\MicrofertilizerStore.Service.csproj", "{E69B2D6C-88CD-4657-A7E3-4644CFBF7358}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{0D4ADD20-EEED-444A-BEB3-F9C9C9C3EB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D4ADD20-EEED-444A-BEB3-F9C9C9C3EB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D4ADD20-EEED-444A-BEB3-F9C9C9C3EB9C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9F67E993-0ABE-42C1-B9B4-2593B107B875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F67E993-0ABE-42C1-B9B4-2593B107B875}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F67E993-0ABE-42C1-B9B4-2593B107B875}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F67E993-0ABE-42C1-B9B4-2593B107B875}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0E5BD657-E3B3-48B6-988F-6C9856A567CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0E5BD657-E3B3-48B6-988F-6C9856A567CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E5BD657-E3B3-48B6-988F-6C9856A567CB}.Release|Any CPU.ActiveCfg = Release|Any CPU

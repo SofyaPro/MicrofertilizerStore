@@ -23,14 +23,12 @@ namespace MicrofertilizerStore.DataAccess
             modelBuilder.Entity<UserEntity>().HasKey(x => x.Id);
             modelBuilder.Entity<UserEntity>().HasIndex(x => x.ExternalId).IsUnique();
             modelBuilder.Entity<UserEntity>().HasIndex(x => x.Email).IsUnique();
-            modelBuilder.Entity<UserEntity>().HasIndex(x => x.PasswordHash).IsUnique(); 
 
             modelBuilder.Entity<UserEntity>().HasIndex(x => x.INN).IsUnique();
             modelBuilder.Entity<UserEntity>().HasIndex(x => x.PhoneNumber).IsUnique();
 
             modelBuilder.Entity<AdminEntity>().HasKey(x => x.Id);
             modelBuilder.Entity<AdminEntity>().HasIndex(x => x.Login).IsUnique();
-            modelBuilder.Entity<AdminEntity>().HasIndex(x => x.PasswordHash).IsUnique();
 
             modelBuilder.Entity<DiscountEntity>().HasKey(x => x.Id);
             modelBuilder.Entity<DiscountEntity>().HasIndex(x => x.StartDate).IsUnique();
@@ -42,7 +40,8 @@ namespace MicrofertilizerStore.DataAccess
                 .WithMany(x => x.Products)
                 .HasForeignKey(x => x.DiscountId);
 
-            modelBuilder.Entity<CartEntity>().HasKey(x => new { x.UserId, x.ProductId});
+            modelBuilder.Entity<CartEntity>().HasKey(x => x.Id);
+            modelBuilder.Entity<CartEntity>().HasIndex(x => new { x.UserId, x.ProductId}).IsUnique();
             modelBuilder.Entity<CartEntity>().HasIndex(x => x.ExternalId).IsUnique();
             modelBuilder.Entity<CartEntity>().HasOne(x => x.Product)
                 .WithMany(x => x.Carts)
@@ -57,8 +56,9 @@ namespace MicrofertilizerStore.DataAccess
                 .WithMany(x => x.Orders)
                 .HasForeignKey(x => x.UserId);
 
-            modelBuilder.Entity<OrderDetailsEntity>().HasKey(x => new { x.ProductId, x.OrderId}); 
+            modelBuilder.Entity<OrderDetailsEntity>().HasKey(x => x.Id); 
             modelBuilder.Entity<OrderDetailsEntity>().HasIndex(x => x.ExternalId).IsUnique();
+            modelBuilder.Entity<OrderDetailsEntity>().HasIndex(x => new { x.ProductId, x.OrderId }).IsUnique();
             modelBuilder.Entity<OrderDetailsEntity>().HasOne(x => x.Product)
                 .WithMany(x => x.OrderDetails)
                 .HasForeignKey(x => x.ProductId);
