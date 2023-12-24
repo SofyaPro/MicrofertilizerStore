@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrofertilizerStore.UnitTe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrofertilizerStore.Service", "MicrofertilizerStore.Service\MicrofertilizerStore.Service.csproj", "{E69B2D6C-88CD-4657-A7E3-4644CFBF7358}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrofertilizerStore.BL.UnitTests", "MicrofertilizerStore.BL.UnitTests\MicrofertilizerStore.BL.UnitTests.csproj", "{64E721F9-3218-4F68-95AA-C5D07D97E906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrofertilizerStore.Service.UnitTests", "MicrofertilizerStore.Service.UnitTests\MicrofertilizerStore.Service.UnitTests.csproj", "{66EFD0C1-07C3-4A03-BC01-109EA6452AFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,12 +39,22 @@ Global
 		{E69B2D6C-88CD-4657-A7E3-4644CFBF7358}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E69B2D6C-88CD-4657-A7E3-4644CFBF7358}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E69B2D6C-88CD-4657-A7E3-4644CFBF7358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64E721F9-3218-4F68-95AA-C5D07D97E906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E721F9-3218-4F68-95AA-C5D07D97E906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E721F9-3218-4F68-95AA-C5D07D97E906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E721F9-3218-4F68-95AA-C5D07D97E906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66EFD0C1-07C3-4A03-BC01-109EA6452AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66EFD0C1-07C3-4A03-BC01-109EA6452AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66EFD0C1-07C3-4A03-BC01-109EA6452AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66EFD0C1-07C3-4A03-BC01-109EA6452AFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0E5BD657-E3B3-48B6-988F-6C9856A567CB} = {B72A0FEC-702E-4D98-8544-343D5AE5C536}
+		{64E721F9-3218-4F68-95AA-C5D07D97E906} = {B72A0FEC-702E-4D98-8544-343D5AE5C536}
+		{66EFD0C1-07C3-4A03-BC01-109EA6452AFE} = {B72A0FEC-702E-4D98-8544-343D5AE5C536}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {84A02CCD-D52C-4667-A7BF-9A76933C3000}
